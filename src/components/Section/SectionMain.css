@@ -1,0 +1,29 @@
+.section{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.section h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+
+.section .caixa{
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.section .caixa:hover{
+    background-color: rgb(207, 204, 204);
+}
+
+.section img{
+    width: 150px;
+}
