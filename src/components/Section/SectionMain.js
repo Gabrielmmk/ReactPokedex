@@ -31,8 +31,8 @@ const Section = () => {
     
     return (
         <>
-        
             <div className="container">
+                <h2 style={{textAlign : 'center'}}>Pokemons</h2>
                 <div className="row">
                     {pokemons.map((pokemon, index) => (
                         <div className="col-sm-12 col-md-6 col-lg-4" key={index}>

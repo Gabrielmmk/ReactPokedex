@@ -45,7 +45,7 @@ export default function PokemonCard({name, image, types, abilities, id}){
                                 <h5>{typeHandler()}</h5>
                                 <img className='card-img-top' src={image} alt={`Imagem do pokemon ${name}`} style={{width: "150px"}}/>
                                 <p className="card-text">As principais habilidades são: {abilitesPoke()}</p>
-                                <button className="btn btn-primary" onClick={() => nameDescription(name, id)}>Ler Mais</button>
+                                <button className="btn btn-primary" >Ler Mais</button>
                             </div>
                     </div>
                 </div>
